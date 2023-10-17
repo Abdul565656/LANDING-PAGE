@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header1{
+    background-color: lightgrey;
+    left: 0;
+    right: 0;
+    margin-top: 2px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.header1 * {
+    display: inline;
+    margin: 10px;
+}
+.num{
+    margin-left: 350px;
+}
+ .email{
+    opacity: .8;
+} 
+.number{
+    opacity: .8;
+} 
+.header2{
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    height: 70px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 20PX;
+    margin-right: 60px;
+}
+.header2 * {
+    display: inline;
+    margin: 10px;
+    padding-top: 5px;
+
+}
+.header2 .paragraph{
+     margin-left: -400px;
+     box-shadow: 1px 1px 10px greenyellow;
+}
+.firstheading{
+    opacity: .6;
+    text-transform: capitalize;
+}
+.header2 p:hover{
+      background-color:greenyellow;
+      font-size: 15px;
+      text-decoration: underline;
+}
+.button{
+    border: 2px;
+     background-color: orange;
+     width: 200px;
+     height: 50px;
+     border-radius: 30px;
+     padding: 20px;
+     padding-top: 15px;
+     color: white;
+     font-family: Bodoni MT;
+     box-shadow: 1px 1px 20px green;
+}
+.button:hover{
+    background-color: purple;
+    color:lightgray;
+    font-family: algerian;
+}
+.IMAGE{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-right: 600px;
+    padding-top: 0PX;
+    margin-top: -50PX;
+}
+.background{
+    background-image: url(developing-1.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    padding-top: 20PX;
+    color: white;
+    font-family: sans-serif;
+    font-size: 65px;
+   
+}
+.h3{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    opacity: .7;
+}
+.BUTTON2{
+    border: 2PX;
+    justify-content: center;
+    align-items: center;
+    margin-left: 530PX;
+    width: 150PX;
+    height: 30PX;
+    padding: 30PX;
+    padding-top: 9PX;
+    padding-right: 20PX;
+    border-radius: 30PX;
+    background-color: orange;
+}
+.BUTTON2:hover{
+    background-color: purple;
+    font-family: algerian;
+}
+.BUTTON3{
+    border: 2PX;
+    width: 155PX;
+    height: 30PX;
+    padding: 30PX;
+    padding-top: 10PX;
+    padding-right: 10PX;
+    border-radius: 30PX;
+    background-color: orange;
+    padding-top: 8PX;
+}
+.BUTTON3:hover{
+    background-color: purple;
+    font-family: algerian;
+}
+.OURSERVICES{
+    padding: 0;
+    margin: 0;
+}
+.OUR{
+    color: black;
+    font-size: 30PX;
+    font-weight:700 ;
+    text-shadow: 1px 1px 20px green;
+}
+.SERVICES{
+    text-align: center;
+    font-size: 15PX ;
+    font-weight: 700;
+    margin-top: -15PX;
+    opacity: .5;
+}
+.course{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-right: 90px;
+    margin-top: 20px;
+    transition: 2s ease-in-out 0.5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.course p a{
+    text-decoration: none;
+    color: black;
+}
+.course p:hover{
+    font-weight: 900;
+}
+h1{
+    color: black;
+    font-size: 50px;
+}
+.course IMG{
+    width: 290PX;
+    height: 290PX;
+    border-radius: 20px;
+    transition: 1s;
+   
+}
+.course img:hover{
+    border-radius:100px ;
+    box-shadow: 12px 12px 10px black;
+    border: 5px solid black;
+}
+div.courses{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+.courses p a{
+    text-decoration: none;
+    color: black;
+}
+.courses p:hover{
+    font-weight: 900;
+}
+.courses img{
+    border-radius: 20px;
+    width: 290px;
+    height: 290px;
+    transition: 1s;
+}
+.courses img:hover{
+     border-radius: 100px;
+     box-shadow: 10px 10px 10px black;
+     border: 7px solid black;
+}
+.cour{
+    margin-left: 530px;
+    margin-top: 60px;
+}
+.cour p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cour p a{
+    text-decoration: none;
+    color: black;
+}
+.cour p:hover{
+    font-weight: 900;
+}
+.courses7 img{
+    transition: 1s;
+    border: 1px solid black;
+ 
+}
+.cour img:hover{
+    border-radius: 100px;
+    border: 7px solid black;
+    box-shadow: 10px 10px 10px black;
+}
+footer{
+    background-color: grey;
+    height: 300px;  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer1{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-left: 80px;
+}
+.footer2{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.footer3{
+    text-transform: capitalize;
+    margin-right: 80px;
+}
